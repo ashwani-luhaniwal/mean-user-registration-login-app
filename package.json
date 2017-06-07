@@ -1,0 +1,49 @@
+{
+  "name": "mean-user-registration-login-app",
+  "version": "1.0.0",
+  "description": "MEAN User Registration and Login App",
+  "main": "server.js",
+  "scripts": {
+    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\"",
+    "lite": "lite-server",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashwani-luhaniwal/mean-user-registration-login-app.git"
+  },
+  "keywords": [
+    "MEAN",
+    "user-registration-login-app"
+  ],
+  "author": "Ashwani K Luhaniwal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashwani-luhaniwal/mean-user-registration-login-app/issues"
+  },
+  "homepage": "https://github.com/ashwani-luhaniwal/mean-user-registration-login-app#readme",
+  "devDependencies": {
+    "@types/core-js": "^0.9.41",
+    "@types/jasmine": "^2.5.51",
+    "@types/node": "^7.0.28",
+    "concurrently": "^3.4.0",
+    "lite-server": "^2.3.0",
+    "typescript": "^2.3.4"
+  },
+  "dependencies": {
+    "@angular/common": "^4.1.3",
+    "@angular/compiler": "^4.1.3",
+    "@angular/core": "^4.1.3",
+    "@angular/forms": "^4.1.3",
+    "@angular/http": "^4.1.3",
+    "@angular/platform-browser": "^4.1.3",
+    "@angular/platform-browser-dynamic": "^4.1.3",
+    "@angular/router": "^4.1.3",
+    "core-js": "^2.4.1",
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "^5.4.0",
+    "systemjs": "^0.20.13",
+    "zone.js": "^0.8.11"
+  }
+}
